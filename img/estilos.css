@@ -1,0 +1,36 @@
+body{background:#808080;font-family:Arial;font-size:18px;text-align:center}
+header{background:#bdc1c1;display:inline-block;height:auto;margin:.3em .3em;width:90%}
+header h1{font-size:1.2em;font-family:"Parisienne",Arial}
+header #logo{background:#fff;box-shadow:-2px 15px 15px #917f7f,4px 10px 10px #9b8a8a;display:inline-block;height:60%;width:85%}
+header .logo{height:60%;margin:0;width:100%}
+header nav ul li{display:inline-block;font-size:10px;float:left;height:30%;line-height:17px;padding:1px 4px;vertical-align:top;width:20%}
+header nav ul li a{border-bottom:4px solid #0af;border-left:1px solid #0af;border-right:1px solid #0af;color:#000;display:block;font-family:Arial;font-weight:normal;text-align:center;text-transform:uppercase}
+header nav ul li a:hover{background-color:#808080;border-color:#00f;transition:all 1s ease;text-shadow:1px 1px 0 #e6e6e6,2px 2px 0 #c8c8c8,3px 3px 0 #b4b4b4,4px 4px 0 #a0a0a0;}
+header nav ul li a:hover a:hover{font-size:20px}
+#contenedor{background:#fcfcf7;display:inline-block;font-size:1.3em;width:94%}
+#contenedor h2{background:#dcdcd5;font-size:1em;font-family:Arial;font-weight:normal;text-align:left;width:69%}
+#contenedor #nota{background:#cfcfa7;box-shadow:4px 2px 9px #d6d6d6,-4px -3px 3px #ebebeb;display:inline-block;font-size:.8em;font-family:Arial;font-weight:bold;margin:9px;padding:0 1em;width:70%}
+#contenedor #imagenes{background:#dfdfd7;display:inline-block;margin:0;padding:.4px .6em;vertical-align:top;width:90%;-webkit-transition:all 1s ease 1s;-moz-transition:all 1s ease 1s;-o-transition:all 1s ease 1s;transition:all 1s ease 1s}
+#contenedor .derecha{background:#edede6;float:left;margin:.2em;padding:.3em .3em;vertical-align:top;width:45%}
+#contenedor .izquierda{background:#edede6;float:right;margin:.2em;padding:.3em .3em;vertical-align:top;width:45%}
+#contenedor .imagen{border-bottom-left-radius:10px;border-top-right-radius:10px;margin:2px;padding:.2em .2em;width:40%}
+#contenedor .imagen:hover{border-top-left-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;box-shadow:-2px 9px 20px #4a4a4a;margin:.5em .4em;width:90%;transition:all 5s ease 2s}
+#contenedor #enlaces{background:#039595;color:#fff;display:inline-block;margin:10px;padding:.3em .5em;text-align:center;vertical-align:top;width:90%}
+#contenedor #contacto{font-family:"Parisienne",Arial;font-size:1em;font-weight:bold;text-align:left}
+#contenedor #contacto h4{background:#808080;width:40%}
+#contenedor #contacto a{color:#000;font-size:.8em}
+#contenedor #contacto a:hover{color:#ff8b00;font-size:1em}
+#contenedor .redes{border-top-right-radius:20px;display:inline-block;float:right;margin:0;padding:.3em .5em;padding-top:-10em;vertical-align:top;width:30%}
+#contenedor .redes p{font-size:1em;font-family:"Parisienne",Arial;font-weight:bold}
+#contenedor .facebook{display:inline-block;margin:0;width:15%}
+#contenedor .twitter{display:inline-block;margin:0;width:15%}
+#contenedor .youtube{display:inline-block;margin:0;width:15%}
+#contenedor .blog{display:inline-block;margin:0;width:15%}
+@media screen and (min-width:768px){header{font-size:1em;margin:0;padding:0;}
+header h1{font-family:"Euphoria Script",Arial;font-size:1.2em;margin:0;padding:.3em .4em;}
+header h1 .logo{box-shadow:-4px 5px 20px #1f1f1f,-2px 2px 20px #858585}
+#contenedor #nota{border-top-left-radius:20px;border-bottom-right-radius:20px;font-family:"Mystery Quest",Arial;font-size:1em;width:60%;}
+#contenedor #nota h2{font-family:"Diplomata SC",Arial;font-weight:bold}
+#contenedor #imagenes{background:#707070}
+#contenedor #enlaces{border-top-left-radius:15px;border-bottom-right-radius:15px;box-shadow:7px 5px 5px #808080,-8px 8px 15px #666}
+}

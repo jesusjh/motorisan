@@ -1,0 +1,30 @@
+body{background:#808080;font-family:Arial;font-size:18px;text-align:center}
+header{background:#bdc1c1;display:inline-block;height:auto;margin:.3em .3em;width:90%}
+header h1{font-size:1.2em;font-family:"Parisienne",Arial}
+header #logo{background:#fff;box-shadow:-2px 15px 15px #917f7f,4px 10px 10px #9b8a8a;display:inline-block;height:60%;width:85%}
+header .logo{height:60%;margin:0;width:100%}
+header nav ul li{display:inline-block;font-size:10px;float:left;height:30%;line-height:17px;padding:1px 4px;vertical-align:top;width:20%}
+header nav ul li a{border-bottom:4px solid #0af;border-left:1px solid #0af;border-right:1px solid #0af;color:#000;display:block;font-family:Arial;font-weight:normal;text-align:center;text-transform:uppercase}
+header nav ul li a:hover{background-color:#808080;border-color:#00f;transition:all 1s ease;text-shadow:1px 1px 0 #e6e6e6,2px 2px 0 #c8c8c8,3px 3px 0 #b4b4b4,4px 4px 0 #a0a0a0;}
+header nav ul li a:hover a:hover{font-size:20px}
+#contenido{background:#000;box-shadow:20px 10px 5px #707070,-13px 40px 10px #696969,-20px 10px 20px #e8e8e8,-8px -1px 10px #e3e3e3;font-size:.8em;display:inline-block;width:90%}
+#contenido h2{background:#808080;display:inline-block;font-family:"Parisienne",Arial;font-size:1.6em;font-weight:bold;text-align:left;width:50%}
+#contenido #nota{background:#858585;color:#fff;display:inline-block;font-family:"Henny Penny",Arial;font-size:1.5em;font-weight:bold;width:60%}
+#contenido iframe{display:inline-block;vertical-align:top;width:45%}
+#contenido #mapa #uno{display:inline-block;float:left;margin:.3em;position:relative}
+#contenido #mapa #dos{display:inline-block;float:right;margin:.3em;position:relative}
+#contenido #note{background:#ccc;border-bottom-right-radius:20px;border-top-left-radius:20px;box-shadow:-3px -5px 20px #d1d1d1,-2px -2px 20px #d9d9d9;color:#000;display:inline-block;font-family:"Henny Penny",Arial;font-size:1.2em;font-weight:bold;margin:2px;padding:.5em .4em;text-align:left;width:70%}
+#contenido #enlaces{background:#039595;color:#fff;display:inline-block;margin:10px;padding:.3em .5em;text-align:center;vertical-align:top;width:90%}
+#contenido #contacto{font-family:"Parisienne",Arial;font-size:1em;font-weight:bold;text-align:left}
+#contenido #contacto h4{background:#808080;width:40%}
+#contenido #contacto a{color:#000;font-size:.8em}
+#contenido #contacto a:hover{color:#ff8b00;font-size:1em}
+#contenido .redes{border-top-right-radius:20px;display:inline-block;float:right;margin:0;padding:.3em .5em;padding-top:-10em;vertical-align:top;width:30%}
+#contenido .redes p{font-size:1em;font-family:"Parisienne",Arial;font-weight:bold}
+#contenido .facebook{display:inline-block;margin:0;width:15%}
+#contenido .twitter{display:inline-block;margin:0;width:15%}
+#contenido .youtube{display:inline-block;margin:0;width:15%}
+#contenido .blog{display:inline-block;margin:0;width:15%}
+@media screen and (min-width:768px){#contenido #nota{border-left:2px solid #fff;border-bottom:2px solid #fff;font-size:1em;height:auto;width:50%}
+#contenido #enlaces{border-bottom-left-radius:15px;border-top-right-radius:15px;box-shadow:8px 5px 10px #666,-7px 8px 15px #5a6d1f}
+}
